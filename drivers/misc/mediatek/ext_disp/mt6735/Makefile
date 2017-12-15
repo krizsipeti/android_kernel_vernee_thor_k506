@@ -5,6 +5,7 @@
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/ \
              -I$(srctree)/drivers/misc/mediatek/ext_disp/  \
+             -I$(srctree)/drivers/misc/mediatek/ext_disp/mt6735 \
              -I$(srctree)/drivers/misc/mediatek/ext_disp/common/test/ \
              -I$(srctree)/drivers/misc/mediatek/video/   \
              -I$(srctree)/drivers/misc/mediatek/video/common/rdma10/ \
