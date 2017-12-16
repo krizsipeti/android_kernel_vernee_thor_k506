@@ -1,6 +1,8 @@
 # drivers/video/mtk/Makefile
 #
 
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/video/mt6735/videox
+
 obj-$(CONFIG_MTK_FB) += mtkfb_console.o        \
 			    disp_assert_layer.o    \
 			    debug.o                \
