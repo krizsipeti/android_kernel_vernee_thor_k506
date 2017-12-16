@@ -1,3 +1,4 @@
+ccflags-y += -I$(srctree)/drivers/watchdog/mediatek/wdt/mt6735/
 ccflags-y += -I$(srctree)/drivers/watchdog/mediatek/include	\
 			 -I$(srctree)/drivers/misc/mediatek/multibridge/mt6735/mt8193/inc
 
