@@ -1,5 +1,5 @@
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/m4u/mt6735
-ccflags-y += -I$(srctree)/drivers/misc/mediatek/m4u/mt6735/mt6735
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/m4u/mt6735/mt6753
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/mmp/
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/m4u/2.0
 
