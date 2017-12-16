@@ -18,6 +18,7 @@
 
 #####################################
 # Add new chipset groups here
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/m4u/mt6735/mt6753
 
 
 #####################################
